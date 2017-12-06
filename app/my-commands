@@ -1,0 +1,15 @@
+ 2941  git init
+ 2942  touch readme.md index.html style.css
+ 2943  git remote add origin https://github.com/shaunbseidman/git-drill-1.git
+ 2944  git add index.html
+ 2945  git status
+ 2946  git commit -m "added index.html"
+ 2947  open -t readme.md
+ 2948  git add -A
+ 2949  git reset
+ 2950  touch app.js
+ 2951  git add -A
+ 2952  git commit -m "charlie"
+ 2953  git log
+ 2954  git push origin master
+ 2955  mkdir app
